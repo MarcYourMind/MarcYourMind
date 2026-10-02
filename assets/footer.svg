@@ -1,0 +1,17 @@
+<svg width="1200" height="230" viewBox="0 0 1200 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="line" x1="160" y1="0" x2="1040" y2="0" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#7C5CFF" stop-opacity="0"/>
+    <stop offset=".2" stop-color="#7C5CFF"/>
+    <stop offset=".5" stop-color="#42A5FF"/>
+    <stop offset=".8" stop-color="#23E6C8"/>
+    <stop offset="1" stop-color="#23E6C8" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="230" rx="24" fill="#070B11"/>
+<rect x="1" y="1" width="1198" height="228" rx="23" stroke="#8BA8BF" stroke-opacity=".13" stroke-width="2"/>
+<rect x="180" y="65" width="840" height="2" rx="1" fill="url(#line)"/>
+<text x="600" y="118" text-anchor="middle" fill="#F2F7FA" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="31" letter-spacing="-0.5">BUILD SOMETHING DIFFICULT.</text>
+<text x="600" y="153" text-anchor="middle" fill="#8EA7BA" font-family="Inter, Arial, sans-serif" font-size="15">Complexity is not the goal. Useful, reliable systems are.</text>
+<text x="600" y="194" text-anchor="middle" fill="#23E6C8" font-family="ui-monospace, monospace" font-size="12" letter-spacing="2">MARCYOURMIND.GITHUB.IO</text>
+</svg>

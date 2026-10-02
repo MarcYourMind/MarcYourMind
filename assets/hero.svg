@@ -1,0 +1,87 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="500" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#05070A"/>
+    <stop offset="0.48" stop-color="#09111D"/>
+    <stop offset="1" stop-color="#071018"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="150" y1="110" x2="1000" y2="390" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#7C5CFF"/>
+    <stop offset="0.48" stop-color="#42A5FF"/>
+    <stop offset="1" stop-color="#23E6C8"/>
+  </linearGradient>
+  <radialGradient id="orb" cx="0" cy="0" r="1" gradientTransform="translate(985 244) rotate(180) scale(225 225)">
+    <stop stop-color="#42A5FF" stop-opacity=".20"/>
+    <stop offset="1" stop-color="#42A5FF" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" stroke="#7CA6C9" stroke-opacity=".055" stroke-width="1"/>
+  </pattern>
+</defs>
+
+<rect width="1200" height="500" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="500" rx="28" fill="url(#grid)"/>
+<circle cx="1000" cy="250" r="235" fill="url(#orb)"/>
+<rect x="1" y="1" width="1198" height="498" rx="27" stroke="#8AB7E3" stroke-opacity=".16" stroke-width="2"/>
+
+<!-- top bar -->
+<circle cx="46" cy="39" r="5" fill="#23E6C8"/>
+<text x="62" y="44" fill="#A9BED1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="2">MARCYOURMIND / SYSTEM PROFILE</text>
+<text x="1056" y="44" fill="#5D7891" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.5">ONLINE</text>
+<circle cx="1135" cy="39" r="4" fill="#23E6C8" filter="url(#glow)"/>
+
+<!-- left content -->
+<text x="72" y="148" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="66" letter-spacing="-2">MARC YOUR MIND</text>
+<rect x="73" y="173" width="590" height="3" rx="1.5" fill="url(#accent)"/>
+<text x="72" y="223" fill="#D7E4EF" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="24">MULTI-DOMAIN SOFTWARE ENGINEER</text>
+
+<text x="72" y="272" fill="#8FA9BF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">
+  <tspan x="72" dy="0">AI / ML  ·  QUANT  ·  BACKEND  ·  WEB3  ·  FULL STACK</tspan>
+</text>
+
+<text x="72" y="325" fill="#BFD0DE" font-family="Inter, Arial, sans-serif" font-size="18">
+  <tspan x="72" dy="0">Building high-performance systems where intelligence,</tspan>
+  <tspan x="72" dy="28">reliability and product thinking meet.</tspan>
+</text>
+
+<!-- command -->
+<rect x="72" y="397" width="570" height="54" rx="12" fill="#0A1018" stroke="#23384B"/>
+<text x="94" y="431" fill="#23E6C8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">$</text>
+<text x="116" y="431" fill="#C9DAE8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">turn_complexity_into_production_systems()</text>
+
+<!-- right network -->
+<circle cx="938" cy="246" r="93" stroke="url(#accent)" stroke-opacity=".58" stroke-width="1.5"/>
+<circle cx="938" cy="246" r="58" fill="#0B1724" stroke="#42A5FF" stroke-opacity=".55"/>
+<text x="938" y="239" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">SYSTEM</text>
+<text x="938" y="265" text-anchor="middle" fill="#74B9F8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">THINKING</text>
+
+<g stroke="#487796" stroke-opacity=".50" stroke-width="1.5">
+  <path d="M875 177L816 128"/>
+  <path d="M1002 179L1068 128"/>
+  <path d="M1031 247L1110 247"/>
+  <path d="M1002 314L1072 371"/>
+  <path d="M874 314L805 373"/>
+</g>
+<g fill="#0B1724" stroke-width="1.5">
+  <circle cx="798" cy="114" r="37" stroke="#7C5CFF"/>
+  <circle cx="1087" cy="113" r="37" stroke="#42A5FF"/>
+  <circle cx="1126" cy="247" r="37" stroke="#23E6C8"/>
+  <circle cx="1090" cy="385" r="37" stroke="#42A5FF"/>
+  <circle cx="787" cy="389" r="37" stroke="#7C5CFF"/>
+</g>
+<g fill="#DCEAF4" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" text-anchor="middle">
+  <text x="798" y="118">AI / ML</text>
+  <text x="1087" y="117">QUANT</text>
+  <text x="1126" y="251">BACKEND</text>
+  <text x="1090" y="389">WEB3</text>
+  <text x="787" y="393">PRODUCT</text>
+</g>
+<g fill="#23E6C8">
+  <circle cx="816" cy="128" r="3"/><circle cx="1068" cy="128" r="3"/>
+  <circle cx="1110" cy="247" r="3"/><circle cx="1072" cy="371" r="3"/><circle cx="805" cy="373" r="3"/>
+</g>
+</svg>

@@ -1,0 +1,62 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="g" x1="120" y1="50" x2="1080" y2="370" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#7C5CFF"/><stop offset=".5" stop-color="#42A5FF"/><stop offset="1" stop-color="#23E6C8"/>
+  </linearGradient>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+    <path d="M30 0H0V30" stroke="#8BA8BF" stroke-opacity=".045"/>
+  </pattern>
+</defs>
+<rect width="1200" height="420" rx="24" fill="#070B11"/>
+<rect width="1200" height="420" rx="24" fill="url(#grid)"/>
+<rect x="1" y="1" width="1198" height="418" rx="23" stroke="#8BA8BF" stroke-opacity=".13" stroke-width="2"/>
+<text x="54" y="62" fill="#EAF3F9" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="23">ENGINEERING OPERATING MAP</text>
+<text x="54" y="89" fill="#6F8AA1" font-family="ui-monospace, monospace" font-size="12" letter-spacing="1.5">FROM HARD PROBLEM  /  RELIABLE SYSTEM  /  USEFUL PRODUCT</text>
+
+<!-- center rail -->
+<path d="M110 222H1090" stroke="#1D3244" stroke-width="2"/>
+<path d="M130 222H1070" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
+
+<!-- nodes -->
+<g font-family="Inter, Arial, sans-serif">
+  <g>
+    <circle cx="145" cy="222" r="11" fill="#7C5CFF"/>
+    <text x="145" y="158" text-anchor="middle" fill="#E7E2FF" font-weight="700" font-size="16">01 / UNDERSTAND</text>
+    <text x="145" y="183" text-anchor="middle" fill="#8098AC" font-size="13">constraints · data · failure</text>
+  </g>
+  <g>
+    <circle cx="370" cy="222" r="11" fill="#685FFF"/>
+    <text x="370" y="275" text-anchor="middle" fill="#E7E2FF" font-weight="700" font-size="16">02 / ARCHITECT</text>
+    <text x="370" y="300" text-anchor="middle" fill="#8098AC" font-size="13">boundaries · state · interfaces</text>
+  </g>
+  <g>
+    <circle cx="595" cy="222" r="11" fill="#4B8DFF"/>
+    <text x="595" y="158" text-anchor="middle" fill="#E0F0FF" font-weight="700" font-size="16">03 / BUILD</text>
+    <text x="595" y="183" text-anchor="middle" fill="#8098AC" font-size="13">models · services · products</text>
+  </g>
+  <g>
+    <circle cx="820" cy="222" r="11" fill="#35B9E7"/>
+    <text x="820" y="275" text-anchor="middle" fill="#DFF7FF" font-weight="700" font-size="16">04 / VERIFY</text>
+    <text x="820" y="300" text-anchor="middle" fill="#8098AC" font-size="13">tests · evaluation · risk</text>
+  </g>
+  <g>
+    <circle cx="1045" cy="222" r="11" fill="#23E6C8"/>
+    <text x="1045" y="158" text-anchor="middle" fill="#DFFFF8" font-weight="700" font-size="16">05 / SHIP</text>
+    <text x="1045" y="183" text-anchor="middle" fill="#8098AC" font-size="13">observe · learn · iterate</text>
+  </g>
+</g>
+
+<!-- discipline tags -->
+<g font-family="ui-monospace, monospace" font-size="12" text-anchor="middle">
+  <rect x="250" y="348" width="128" height="34" rx="17" fill="#0D1420" stroke="#7C5CFF" stroke-opacity=".55"/>
+  <text x="314" y="370" fill="#C9C1FF">AI / ML</text>
+  <rect x="392" y="348" width="128" height="34" rx="17" fill="#0D1420" stroke="#685FFF" stroke-opacity=".55"/>
+  <text x="456" y="370" fill="#C9C1FF">QUANT</text>
+  <rect x="534" y="348" width="128" height="34" rx="17" fill="#0D1420" stroke="#42A5FF" stroke-opacity=".55"/>
+  <text x="598" y="370" fill="#BDE0FF">BACKEND</text>
+  <rect x="676" y="348" width="128" height="34" rx="17" fill="#0D1420" stroke="#35B9E7" stroke-opacity=".55"/>
+  <text x="740" y="370" fill="#BCEEFF">WEB3</text>
+  <rect x="818" y="348" width="128" height="34" rx="17" fill="#0D1420" stroke="#23E6C8" stroke-opacity=".55"/>
+  <text x="882" y="370" fill="#BFFFF4">FULL STACK</text>
+</g>
+</svg>
