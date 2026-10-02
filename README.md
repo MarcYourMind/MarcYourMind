@@ -6,7 +6,7 @@
 
 <div align="center">
   <a href="https://marcyourmind.github.io/">
-    <img src="./assets/hero.svg" width="100%" alt="MarcYourMind — Multi-Domain Software Engineer" />
+    <img src="./assets/hero.svg" width="100%" alt="MarcYourMind — Passionate Engineer" />
   </a>
 </div>
 
